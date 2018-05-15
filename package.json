@@ -1,0 +1,19 @@
+{
+  "name": "everywhere-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "watch": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "everywhe.re",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "lotion": "^0.1.18"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
