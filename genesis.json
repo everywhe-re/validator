@@ -2,5 +2,22 @@
     "app_hash": "",
     "chain_id": "everywhe.re",
     "genesis_time": "0001-01-01T00:00:00Z",
-    "validators": []
+    "validators": [
+        {
+            "name": "jason",
+            "power": 50,
+            "pub_key": {
+                "type": "ed25519",
+                "data": "CB3B55039D32A6865485797D072784F64AF7F083A927EE1C331C4BEFE12CC88C"
+            }
+        },
+        {
+            "name": "darcy",
+            "power": 50,
+            "pub_key": {
+                "type": "ed25519",
+                "data": "240BE511F6D43E0C6C7894955D81D6A21077537314CC217A52CDB41B1C6C9624"
+            }
+        }
+    ]
   }
