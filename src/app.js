@@ -15,10 +15,12 @@ const options = {
     }
 };
 
+console.log('Using config', options);
+
 let app = lotion(options);
 
 // Middleware MUST be deterministic!
-const msgHandler = (state, tx) => {
+function msgHandler(state, tx) {
     // tx.sender has wrong type
     if (typeof tx.sender !== 'string') {
         return;
@@ -79,10 +81,10 @@ app.listen(3000).then(genesis => {
 
 // Handle errors
 process.on('unhandledRejection', function(reason, p){
-    console.log('Please report the following error as an GitHub issue on: ')
+    console.log('Please report the following error as an GitHub issue at: ')
     console.log(
         ` 
-        Please report the following error as an GitHub issue on:
+        Please report the following error as an GitHub issue at:
         https://github.com/everywhe-re/validator
         `
     )
