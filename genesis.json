@@ -8,7 +8,7 @@
             "power": 50,
             "pub_key": {
                 "type": "ed25519",
-                "data": "CB3B55039D32A6865485797D072784F64AF7F083A927EE1C331C4BEFE12CC88C"
+                "data": "734E77E0A03A685487B62AA6F7989DAEA745D0FDA1A7AFB455B2506D4136C64E"
             }
         },
         {
@@ -16,7 +16,7 @@
             "power": 10,
             "pub_key": {
                 "type": "ed25519",
-                "data": "240BE511F6D43E0C6C7894955D81D6A21077537314CC217A52CDB41B1C6C9624"
+                "data": "B62E4611BC93F14A1E63FB56E69E40D8CB1497981C91D1CB453BF1407285A90C"
             }
         }
     ]

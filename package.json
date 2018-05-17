@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/app.js",
     "watch": "nodemon src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "keygen": "./node_modules/lotion/bin/tendermint gen_validator > validator_priv.json"
   },
   "author": "everywhe.re",
   "license": "UNLICENSED",

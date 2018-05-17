@@ -278,5 +278,6 @@ $RECYCLE.BIN/
 
 ### Custom ###
 node_modules/
+validator_priv.json
 
 # End of https://www.gitignore.io/api/node,linux,macos,windows,webstorm+all,intellij+all,phpstorm+all,visualstudiocode
